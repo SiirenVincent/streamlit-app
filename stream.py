@@ -55,7 +55,7 @@ if model_select == "fb-Prophet":
 
 elif model_select == 'LPPLS':
     st.header("LPPLS")
-    st.markdown("""This modelprovides a flexible framework to detect bubbles and predict regime changes of a 
+    st.markdown("""This model provides a flexible framework to detect bubbles and predict regime changes of a 
     financial asset. Anytime the price rises above the blue line, it is over-valued i.e. in a bubble and
     everytime it is below the blue line it's undervalued.""")
     time= np.linspace(0, len(bitcoin)-1, len(bitcoin))
