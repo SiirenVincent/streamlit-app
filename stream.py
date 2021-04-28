@@ -4,9 +4,9 @@ import base64
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
-from fbprophet import Prophet
-from prophet.plot import plot_plotly, plot_components_plotly
-from lppls import lppls, data_loader
+#from fbprophet import Prophet
+#from prophet.plot import plot_plotly, plot_components_plotly
+#from lppls import lppls, data_loader
 
 
 st.title('BITCOIN PRICE ANALYSIS')
